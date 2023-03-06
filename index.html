@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>
+      Reality, nehnuteľnosti, domy, byty, pozemky, realitné kancelárie a viac !
+      - reality na AReality.sk
+    </title>
+    <!-- BootStrap Links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Top -->
+    <div class="banner-wrapper">
+      <div class="banner">
+        <a class="btn-info" href="">Súhlasím</a>
+        <p class="info-text">
+          Náš web používa súbory cookie.
+          <a class="info" href="">Prečítajte si viac</a>
+        </p>
+      </div>
+    </div>
+    <!-- NavBar -->
+    <div class="header">
+      <nav class="navbar navbar-expand-lg wrapper header-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo_reality.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            style="flex-grow: 0"
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Prihláste sa!</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Vstup pre inzerentov</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="images/flags/flag-sk.png" alt="" />Slovensky
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="images/flags/flag-cs.png" alt="" /> Cesky</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="images/flags/flag-de.png" alt="" />Deutsch</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="images/flags/flag-en.png" alt="" />English</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="images/flags/flag-hu.png" alt="" />Magyar</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg wrapper">
+        <div class="container-fluid">
+          <div
+            class="collapse navbar-collapse home"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav main-menu clearfix home-menu">
+              <li style="margin-left: 0" class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><img src="images/main-menu-home.png" alt=""
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nehnuteľnosti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Realitné kancelárie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Informácie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  ><img src="images/icon-menu-inzerat-small.png" alt="" />
+                  Vložiť inzerát</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  ><img src="images/icon-menu-dopyt-small.png" alt="" /> Vložiť
+                  dopyt</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Content -->
+    <div class="content-wrapper">
+      <div class="content-top">
+        <div class="katalog clearfix">
+          <ul>
+            <li class="favorites">
+              <h2>
+                <span>Obľúbené inzeráty</span>
+                <span class="short">Obľúbené</span>
+              </h2>
+              <p>
+                <span class="cnt"
+                  >pre pridávanie inzerátov do obľúbených je potrebné sa
+                  prihlásiť</span
+                >
+              </p>
+            </li>
+
+            <li class="saved">
+              <h2>
+                <span>Uložené hľadanie</span><span class="short">Uložené</span>
+              </h2>
+              <p>pre uloženie hľadanie je potrebné sa prihlásiť</p>
+            </li>
+          </ul>
+        </div>
+        <div class="katalog clearfix">
+          <ul class="first">
+            <li id="flats">
+              <h2>
+                <a href="">Byty na predaj</a>
+              </h2>
+              <p>
+                <a href="">garsónky</a>, <a href="">1&#8209;izb.&nbsp;byty</a>,
+                <a href="">2&#8209;izb.&nbsp;byty</a>,
+                <a href="">3&#8209;izb.&nbsp;byty</a>,
+                <a href="">4&#8209;izb.&nbsp;byty</a>
+                a&nbsp;
+                <a href="">väčšie</a>
+              </p>
+            </li>
+            <li id="flats-pr">
+              <h2>
+                <a href="">Byty na prenájom</a>
+              </h2>
+              <p>
+                <a href="">do 350 EUR/mes.</a>, <a href="">500 EUR/mes.</a>,
+                <a href="">1000 EUR/mes.</a>
+                <a href="">a&nbsp;vyššie</a>
+              </p>
+            </li>
+            <li id="fam-house">
+              <h2>
+                <a href="">Rodinné domy</a>
+              </h2>
+              <p>
+                <a href="">rodinné domy na predaj</a>
+                a&nbsp;
+                <a href="">prenájom</a>
+                <a href="">chaty a chalupy</a>
+              </p>
+            </li>
+            <li id="garden">
+              <h2>
+                <a href="">Pozemky a záhrady</a>
+              </h2>
+              <p>
+                <a href="">pozemky pre bývanie</a>,
+                <a href="">komerčnú výstavbu</a>
+                a ďalšie pozemky
+              </p>
+            </li>
+            <li id="commercial">
+              <h2>
+                <a href="">Komerčné priestory</a>
+              </h2>
+              <p>
+                <a href="">administratívne</a>, <a href="">obchodné</a>,
+                <a href="">skladovacie</a>, <a href="">výrobné</a>,
+                <a href="">ostatné</a>
+              </p>
+            </li>
+            <li id="commercial-object">
+              <h2>
+                <a href="">Komerčné objekty</a>
+              </h2>
+              <p>
+                <a href="">administratívne</a>, <a href="">obchodné</a>,
+                <a href="">výrobné</a>, <a href="">nájomné domy</a>,
+                <a href="">sklady</a>
+              </p>
+            </li>
+            <li id="new-house">
+              <h2>
+                <a href="">Novostavby</a>
+              </h2>
+              <p>
+                <a href="">nové&nbsp;domy</a>
+                <a href="">novopostavené&nbsp;byty</a>
+              </p>
+            </li>
+            <li id="eu-advert">
+              <h2>
+                <a href="">Nehnuteľnosti v zahraničí</a>
+              </h2>
+              <p>
+                <a href="">Maďarsko</a>, <a href="">Rakúsko</a>,
+                <a href="">Česko</a>, <a href="">Bulharsko</a>,
+                <a href="">Chorvátsko</a>,
+                <a href="">Spanielsko</a>
+              </p>
+            </li>
+            <li id="inzerat-dopyt">
+              <a class="inzerat" href="">Vložiť inzerát</a>
+              <a class="dopyt" href="" class="dopyt"> Vložiť dopyt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Content -->
+    <div class="card-content clearfix">
+      <h2 class="card-header">Mohlo by Vás zaujímať</h2>
+
+      <div class="item">
+        <a href="objectView.html">
+          <img src="images/card/card-1.jpg" width="282px" height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Prenájom, iný byt, 110 m<sup>2</sup></a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Bratislava - Staré Mesto</span>,
+                <span>Grösslingová</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena"> <span>EUR/mesiac</span></span>
+        </p>
+        <span class="overlay">odporúčame</span>
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href="">
+          <img
+            src="images/card/card-2.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+          />
+        </a>
+        <h3>
+          <a href="">Prenájom, obchodné priestory, 87 m<sup>2</sup></a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Bratislava - Staré Mesto</span>,
+                <span>Grösslingová</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>1 000,00</span>&nbsp;<span>EUR/mesiac</span>
+          </span>
+        </p>
+        <span class="overlay">odporúčame</span>
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href="">
+          <img
+            src="images/card/card-3.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, 3-izb. byt, 90 m<sup>2</sup></a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Bratislava - Staré Mesto</span>,
+                <span>Medená</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>449 000,00</span>&nbsp;<span>EUR</span>
+          </span>
+        </p>
+        <span class="overlay">odporúčame</span>
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href="">
+          <img
+            src="images/card/card-4.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, objekt pre obchod, 180 m<sup>2</sup></a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Bratislava - Nové Mesto</span>,
+                <span>Robotnícka</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>579 000,00</span>&nbsp;<span>EUR</span></span
+          >
+        </p>
+        <span class="overlay">odporúčame</span>
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href="">
+          <img
+            src="images/card/card-5.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, 4-izb. byt, 94 m<sup>2</sup></a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Nitra</span>,
+                <span>Nedbalova</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>188 000,00</span>&nbsp;<span>EUR</span>
+          </span>
+        </p>
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href="">
+          <img
+            src="images/card/card-6.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, záhrada</a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Stupava</span>,
+                <span>Grefty</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>54 900,00</span>&nbsp;<span>EUR</span>
+          </span>
+        </p>
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href="">
+          <img
+            src="images/card/card-7.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, rodinný dom, 121,9 m<sup>2</sup></a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Nitra</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>257 000,00</span>&nbsp;<span>EUR</span>
+          </span>
+        </p>
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href="">
+          <img
+            src="images/card/card-8.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, rodinný dom</a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Jablonové</span>,
+                <span>Jablonové</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>388 000,00</span>&nbsp;<span>EUR</span>
+          </span>
+        </p>
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href=""
+          ><img
+            src="images/card/card-9.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, rodinný dom, 115,9 m<sup>2</sup></a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Nitra</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>229 000,00</span>&nbsp;<span>EUR</span>
+          </span>
+        </p>
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href=""
+          ><img
+            src="images/card/card-10.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, rodinný dom</a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Zohor</span>,
+                <span>Fialková</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>259 900,00</span>&nbsp;<span>EUR</span></span
+          >
+        </p>
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href="">
+          <img
+            src="images/card/card-11.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, rodinný dom, 165,9 m<sup>2</sup></a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Nitra</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>249 000,00</span>&nbsp;<span>EUR</span></span
+          >
+        </p>
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href="">
+          <img
+            src="images/card/card-12.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, 2-izb. byt</a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Stupava</span>,
+                <span>Železničná</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>165 000,00</span>&nbsp;<span>EUR</span></span
+          >
+        </p>
+      </div>
+
+      <div class="cb"></div>
+    </div>
+    <!-- Firmy-Clanky -->
+    <div class="firmy-clanky clearfix">
+      <div class="firmy clearfix">
+        <h2 class="firmy-logo">Katalóg firiem</h2>
+        <ul style="padding-left: 0" class="clearfix">
+          <li>
+            <a href="">Nové nehnuteľnosti</a>
+          </li>
+          <li>
+            <a href="">Poistenie</a>
+          </li>
+          <li>
+            <a href="">Financovanie</a>
+          </li>
+          <li>
+            <a href="">Technika</a>
+          </li>
+          <li>
+            <a href="">Výstavy a veľtrhy</a>
+          </li>
+          <li>
+            <a href="">Časopisy a literatúra</a>
+          </li>
+          <li>
+            <a href="">Stavba</a>
+          </li>
+          <li>
+            <a href="">Záhrada</a>
+          </li>
+          <li>
+            <a href="">Architekti/projektanti</a>
+          </li>
+          <li>
+            <a href="">Služby pre bývanie</a>
+          </li>
+          <li>
+            <a href="">Bytový interiér</a>
+          </li>
+          <li>
+            <a href="">Kuchyne</a>
+          </li>
+          <li>
+            <a href="">Kúpeľne</a>
+          </li>
+          <li>
+            <a href="">Príslušenstvo domu</a>
+          </li>
+          <li>
+            <a href="">Kancelárie</a>
+          </li>
+        </ul>
+      </div>
+      <div class="clanky clearfix">
+        <h2 class="clanky-logo firmy-logo">Najnovšie články</h2>
+        <div class="clanky-header">
+          <div class="clanky-item">
+            <h3>
+              <a href=""
+                >Košické biznis centrum kúpili od Penty jej bývalí manažéri</a
+              >
+              <span class="date">20. 4. 2020</span>
+            </h3>
+            <p>
+              Developer pokračuje vo výpredaji kancelárskych nehnuteľností,
+              zbavil sa ďalšej...
+            </p>
+          </div>
+          <div class="clanky-item">
+            <h3>
+              <a href=""
+                >Vláda chce zdigitalizovať stavebné konanie, zruší aj stavebné
+                úrady</a
+              >
+              <span class="date">20. 4. 2020</span>
+            </h3>
+            <p>
+              Nájomné byty bude kabinet hľadať aj pasportizáciou štátnych
+              nehnuteľností...
+            </p>
+          </div>
+        </div>
+        <a class="vsetky-clanky" href="">Všetky články</a>
+      </div>
+    </div>
+    <!-- Top Footer -->
+    <div class="top-footer clearfix">
+      <a class="footer-logo" href="">
+        <img src="images/logo_reality-200x35.png" alt="" />
+      </a>
+      <ul>
+        <li>
+          <a href="">Byty na prenájom Bratislava</a>
+        </li>
+        <li>
+          <a href="">Byty na predaj Bratislava</a>
+        </li>
+        <li>
+          <a href="">Domy Bratislava</a>
+        </li>
+        <li>
+          <a href="">Pozemky Bratislava</a>
+        </li>
+        <li>
+          <a href="">Byty Trnava</a>
+        </li>
+        <li>
+          <a href="">Domy Trnava</a>
+        </li>
+        <li>
+          <a href="">Pozemky Trnava</a>
+        </li>
+        <li>
+          <a href="">Byty Trenčín</a>
+        </li>
+        <li>
+          <a href="">Domy Trenčín</a>
+        </li>
+        <li>
+          <a href="">Pozemky Trenčín</a>
+        </li>
+        <li>
+          <a href="">Byty Nitra</a>
+        </li>
+        <li>
+          <a href="">Domy Nitra</a>
+        </li>
+        <li>
+          <a href="">Pozemky Nitra</a>
+        </li>
+        <li>
+          <a href="">Byty Žilina</a>
+        </li>
+        <li>
+          <a href="">Domy Žilina</a>
+        </li>
+        <li>
+          <a href="">Pozemky Žilina</a>
+        </li>
+        <li>
+          <a href="">Byty Banská Bystrica</a>
+        </li>
+        <li>
+          <a href="">Domy Banská Bystrica</a>
+        </li>
+        <li>
+          <a href="">Pozemky Banská Bystrica</a>
+        </li>
+        <li>
+          <a href="">Byty Prešov</a>
+        </li>
+        <li>
+          <a href="">Domy Prešov</a>
+        </li>
+        <li>
+          <a href="">Pozemky Prešov</a>
+        </li>
+        <li>
+          <a href="">Byty Košice</a>
+        </li>
+        <li>
+          <a href="">Domy Košice</a>
+        </li>
+        <li>
+          <a href="">Pozemky Košice</a>
+        </li>
+        <li>
+          <a href="">Reality Martin</a>
+        </li>
+        <li>
+          <a href="">Byty na predaj Košice</a>
+        </li>
+        <li>
+          <a href="">Reality</a>
+        </li>
+        <li>
+          <a href="">Nehnuteľnosti</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      © 1997 - 2023
+      <a href="">Diadema Software s.r.o.</a>
+      Všetky&nbsp;práva&nbsp;vyhradené.<br />
+      <a href="">Všeobecné obchodné podmienky</a>
+      <span> | </span>
+      <a href="">Ochrana osobných údajov</a>
+    </div>
+  </body>
+</html>

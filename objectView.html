@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>
+      Reality, nehnuteľnosti, domy, byty, pozemky, realitné kancelárie a viac !
+      - reality na AReality.sk
+    </title>
+    <!-- BootStrap Links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      @media (max-width: 480px)
+      {
+        .header{
+          width: 100%;
+        }
+        .navbar-toggler{
+          position: absolute;
+          right: 0;
+          top: 10px;
+        }
+        .main-section h1{
+          margin-top: 10px;
+          padding-right: 20px;
+        }
+        .main-left{
+          width: 100%;
+          padding-right: 20px;
+        }
+        .actions a{
+          margin-right: 0;
+          padding-left: 30px;
+        }
+        .red-green{
+          float: none;
+          width: 100%;
+        }
+        .red-green .green{
+          float: left;
+        }
+        .red-green .red{
+          margin-right: 15px;
+        }
+        .red-green a{
+          width: 46%;
+          text-align: left;
+          font-size: 14px;
+        }
+        .text{
+          width: 92%;
+          float: none;
+          margin-right: 15px;
+        }
+        .cena{
+          width: 100%;
+          float: none;
+          padding-left:  0px;
+         }
+         .cena li >  span{
+           padding-right: 15px;
+         }
+         .kontakt{
+          float: none;
+          width: 100%;
+          padding-right: 15px;
+         }
+         .arrow-btn{
+          width: 100%;
+         }
+         .arrow-btn::after {
+          content: none;
+         }
+         .map iframe {
+          width: 400px;
+         height: 250px;
+}
+        
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top -->
+    <div class="banner-wrapper">
+      <div class="banner">
+        <a class="btn-info" href="">Súhlasím</a>
+        <p class="info-text">
+          Náš web používa súbory cookie.
+          <a class="info" href="">Prečítajte si viac</a>
+        </p>
+      </div>
+    </div>
+    <!-- NavBar -->
+    <div class="header">
+      <nav class="navbar navbar-expand-lg wrapper header-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo_reality.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            style="flex-grow: 0"
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Prihláste sa!</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Vstup pre inzerentov</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="images/flags/flag-sk.png" alt="" />Slovensky
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="images/flags/flag-cs.png" alt="" /> Cesky</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="images/flags/flag-de.png" alt="" />Deutsch</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="images/flags/flag-en.png" alt="" />English</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="images/flags/flag-hu.png" alt="" />Magyar</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg wrapper">
+        <div class="container-fluid">
+          <div
+            class="collapse navbar-collapse home"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav main-menu clearfix home-menu">
+              <li style="margin-left: 0" class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><img src="images/main-menu-home.png" alt=""
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nehnuteľnosti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Realitné kancelárie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Informácie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  ><img src="images/icon-menu-inzerat-small.png" alt="" />
+                  Vložiť inzerát</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  ><img src="images/icon-menu-dopyt-small.png" alt="" /> Vložiť
+                  dopyt</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Breadcrumbs -->
+    <div class="breadcrumb-nav">
+      <ul class="breadcrumb">
+        <li><a href="">AReality.sk</a></li>
+        <li><a href="">Byty na predej</a></li>
+        <li><a href="">Byty na predaj Bratislava</a></li>
+        <li><a href="">Byty na predaj Bratislava V</a></li>
+        <li><a href="">Byty na predaj Bratislava-Petrzalka</a></li>
+        <li><a href="">Dvojizbovy byt na predaj Bratislava-Petrzalka</a></li>
+      </ul>
+    </div>
+    <!-- Main-Section -->
+    <div class="main-section clearfix">
+      <h1>
+        Predaj, 2-izb. byt, 40 m<sup>2</sup>
+        <span>Bratislava - Petržalka, Údernícka</span>
+        <br>
+        <span style="font-weight: 600;">148 000,00</span>
+        &nbsp;
+        <span style="font-weight: 600;">EUR</span>
+        <a class="cenu" href="">navrhnúť cenu</a>
+      </h1>
+     
+      <div class="main-left">
+        <div class="main-img">
+          <a href="">
+            <img src="images/predaj-img.jpg" width="760" height="500" />
+          </a>
+          <div class="main-img-overlay">
+            <a class="overlay-link" href="">Zobraziť 8 fotografií v galérii</a>
+          </div>
+        </div>
+        <div class="links">
+          <div class="actions">
+            <a class="login-required fav" href="">pridať k obľúbeným</a>
+            <a class="share" href="">poslať</a>
+            <a class="print" href="">tlačiť</a>
+            <a class="pdf" href="">uložiť PDF</a>
+          </div>
+        </div>
+      </div>
+      <div class="red-green clearfix">
+        <a class="green" href="">Topovať inzerát</a>
+        <a class="red" href="">Nahlásiť ako nevhodný</a>
+      </div>
+      <div class="text">
+        <h2>
+          Novostavba 2 izb. Údernícka pri hraniciach s Rakúskom a 5 min. od
+          centra
+        </h2>
+        <p>
+          2 izb. apartmán Údernícka ulica - novostavba Septimo, 40m2, zv.
+          prízemie/ z piatich poschodí, ticho orientované, kolaudácia 9/2014,
+          bez balkónu. Priestor disponuje dlhou chodbou s priestorom na vstavané
+          skrine, veľkou obývačkou spojenou s kuchynskou časťou, vybavenou
+          kuchynskou linkou + menšia izba 9 m2. Obývačka je priechodná do
+          spálne. V byte je kuchynská linka so zabudovanou rúrou a
+          sklokeramickou platňou, v kúpeľni zrkadlová skrinka s osvetlením.
+          Vyššie stropy. Byt je dostatočne osvetlený - veľa okien, vonkajšie
+          rolety, vnútorné žalúzie. Situované v blízkosti Petržalskej
+          železničnej stanice, Vienna Gate a blízkosti hraníc s Rakúskom, 7 min.
+          MHD do centra, rýchle napojenie na diaľničný obchvat, Tesco express,
+          reštaurácie, ka
+          <span>...&nbsp;</span>
+          <span class="more-text">
+            <span
+              >aviareň,.... Vlastná trafostanica. Slušní susedia. Energetický
+              certifikát "B". Cena 148.000 €. Kúpou voľný. Možnosť financovania
+              na hypotekárny úver. Bez záložných práv. Ponuka je určená pre
+              priamych záujemcov, Realitné kancelárie môžu volať s konkrétnym
+              klientom. Video bytu: https://www.youtube.com/shorts/iGoh8oZNYh4,
+              kontakt: 0948073175.
+            </span>
+            &nbsp;&nbsp;
+            <a class="learn-more" href="">celý popis »</a>
+          </span>
+        </p>
+      </div>
+
+      <ul class="cena">
+        <li>
+          <span>Cena</span>
+          <span>
+            <span class="cena-num">
+              <span>148 000,00</span>
+              &nbsp;
+              <span>EUR</span>
+            </span>
+            <a class="cenu" href="">navrhnúť &nbsp; cenu</a>
+          </span>
+        </li>
+        <li>
+          <span> Vložené</span>
+          <span>9. 2. 2023</span>
+        </li>
+        <li>
+          <span>Číslo inzerátu</span>
+          <span>AR-0DPZ-000018</span>
+        </li>
+        <li>
+          <span>Katastrálne územie</span>
+          <span>PETRZALKA</span>
+        </li>
+        <li>
+          <span>Lokalita</span>
+          <span>Petržalka</span>
+        </li>
+        <li>
+          <span>Celková podlahová plocha bytu</span>
+          <span>40 m <sup>2</sup></span>
+        </li>
+        <li>
+          <span>Výťah</span>
+          <span>Áno</span>
+        </li>
+        <li>
+          <span>Nadzemné podlažie</span>
+          <span>Prízemné podlažie</span>
+        </li>
+        <li>
+          <span>Stav</span>
+          <span>Novostavda</span>
+        </li>
+        <li>
+          <span>Rok kolaudácie</span>
+          <span>2013 - 2015</span>
+        </li>
+        <li>
+          <span>Balkón</span>
+          <span>Nie</span>
+        </li>
+        <li>
+          <span>Lodžia</span>
+          <span>Nie</span>
+        </li>
+        <li>
+          <span>Terasa</span>
+          <span>Nie</span>
+        </li>
+        <li>
+          <span>Konštrukcia bytu</span>
+          <span>zmiešaná</span>
+        </li>
+        <li>
+          <span>Rok výstavby</span>
+          <span>2014</span>
+        </li>
+        <li>
+          <span>Energetický certifikát budovy</span>
+          <span>B</span>
+        </li>
+        <li>
+          <span>Forma vlastníctva</span>
+          <span>osobné</span>
+        </li>
+        <li>
+          <span>Kategória bytu</span>
+          <span>I. kategória</span>
+        </li>
+      </ul>
+      <div class="kontakt">
+        <h3>Kontaktovať inzerenta</h3>
+        <div class="form">
+          <input type="text" maxlength="60" placeholder="Meno a priezvisko" />
+          <input type="text" maxlength="60" placeholder="E-mail" />
+          <input type="text" maxlength="60" placeholder="Telefón" />
+          <textarea
+            name=""
+            id=""
+            cols="20"
+            rows="8"
+            placeholder="Dobrý deň, mám záujem o bližšie informácie..."
+          ></textarea>
+          <div class="confirmation">
+            <span class="confirmation-checkbox">
+              <input type="checkbox" /> &nbsp;
+              <label for="">Súhlasím so spracovaním osobných údajov</label>
+            </span>
+            <br />
+            <div class="dbame">
+              Dbáme na ochranu osobných údajov, viac informácií nájdete
+              <a style="text-decoration: none; color: #f06e1a" href="">tu</a>
+            </div>
+            <a class="arrow-btn" href="">Kontaktovať</a>
+          </div>
+          <div class="info">
+            <strong>Sandorka Zuzana</strong>
+            <span>
+              Telefón:
+              <span>+421948073175</span>
+            </span>
+            <span>
+              E-mail:
+              <a style="text-decoration: none; color: #f06e1a" href=""
+                >zuzanasandorka@gmail.com</a
+              >
+            </span>
+          </div>
+        
+     
+          
+      </div>
+    </div>
+      <!-- Map -->
+      <div class="map">
+        <iframe src="https://en.mapy.cz/zakladni?x=17.0935020&y=48.1224700&z=18"
+          
+         frameborder="0"></iframe>
+      </div>
+         <!-- Cards -->
+    <div class="card-content clearfix reality-card">
+      <h2 class="card-header">Podobné reality</h2>
+
+      <div class="item">
+        <a href="">
+          <img src="images/reality-card-1.jpg" width="282px" height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, 2-izb. byt, 42 m<sup>2</sup></a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Bratislava - Petržalka </span>,
+                <span>Muchovo nám.</span>
+              </span>
+            </span>
+          </span>
+          <span class="cena"> 
+            <span>238 000,00</span>
+            <span>EUR</span>
+          </span>
+        </p>
+       
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href="">
+          <img
+            src="images/reality-card-2.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+          />
+        </a>
+        <h3>
+          <a href="">Predaj, 2-izb. byt, 55 m<sup>2</sup></a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Bratislava - Petržalka </span>,
+           
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>250 550,00</span>&nbsp;<span>EUR</span>
+          </span>
+        </p>
+       
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href="">
+          <img
+            src="images/reality-card-3.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, 2-izb. byt, 62 m<sup>2</sup></a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Bratislava - Petržalka </span>,
+           
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>195 980,00</span>&nbsp;<span>EUR</span>
+          </span>
+        </p>
+      
+      </div>
+
+      <div class="item">
+        <a class="detail-img-link" href="">
+          <img
+            src="images/reality-card-4.jpg"
+            class="detail-img"
+            width="282px"
+            height="183px"
+        /></a>
+
+        <h3>
+          <a href="">Predaj, objekt pre obchod, 60 m<sup>2</sup></a>
+        </h3>
+        <p>
+          <span class="lokalita">
+            <span>
+              <span>
+                <span>Bratislava - Petržalka </span>,
+           
+              </span>
+            </span>
+          </span>
+          <span class="cena">
+            <span>250 550,00</span>&nbsp;<span>EUR</span>
+          </span>
+        </p>
+      </div>
+
+  </div>
+  <div class="top-footer foot-top clearfix">
+    <a class="footer-logo" href="">
+      <img src="images/logo_reality-200x35.png" alt="" />
+    </a>
+    <ul>
+      <li>
+        <a href="">Garsónka na predaj Bratislava V</a>
+      </li>
+      <li>
+        <a href="">Jednoizbový byt na predaj Bratislava V</a>
+      </li>
+      <li>
+        <a href="">Dvojizbový byt na predaj Bratislava V</a>
+      </li>
+      <li>
+        <a href="">Trojizbový byt na predaj Bratislava V</a>
+      </li>
+      <li>
+        <a href="">Štvorizbový byt na predaj Bratislava V</a>
+      </li>
+      <li>
+        <a href="">Veľký byt na predaj Bratislava V</a>
+      </li>
+      <li>
+        <a href="">Dvojgarsónka na predaj Bratislava V</a>
+      </li>
+      <li>
+        <a href="">Byt na predaj Bratislava V</a>
+      </li>
+      
+    </ul>
+  </div>
+  <!-- Footer -->
+  <div class="footer">
+    © 1997 - 2023
+    <a href="">Diadema Software s.r.o.</a>
+    Všetky&nbsp;práva&nbsp;vyhradené.<br />
+    <a href="">Všeobecné obchodné podmienky</a>
+    <span> | </span>
+    <a href="">Ochrana osobných údajov</a>
+  </div>
+  </body>
+</html>
